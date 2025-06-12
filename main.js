@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Example behavior: Alert for actions (customize as needed)
+    
     const confirmButtons = document.querySelectorAll('.confirm-action');
 
     confirmButtons.forEach(btn => {
