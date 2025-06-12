@@ -1,4 +1,4 @@
--- db/schema.sql
+
 
 CREATE DATABASE IF NOT EXISTS college_marketplace;
 USE college_marketplace;
@@ -12,7 +12,7 @@ CREATE TABLE users (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
---table schema for listings
+
 CREATE TABLE listings (
   id INT AUTO_INCREMENT PRIMARY KEY,
   user_id INT,
